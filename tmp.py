@@ -23,7 +23,7 @@ from blockchain import blockexplorer as bx
 secs_in_day = 60*60*24
 secs_in_2weeks = secs_in_day*14
 
-known_pools = json.load(open('./seedfile/pools_blockchain.info_2018-03-10.json'))
+known_pools = json.load(open('./dataset/blockchain.info_2019-01-28.json'))
 known_pool_addresses = list(known_pools['payout_addresses'].keys())
 # print('Number of known addresses', len(known_pool_addresses))
 pools_names = set(known_pools['coinbase_tags'].keys()) # strings that may appear in coinbase scriptSig
