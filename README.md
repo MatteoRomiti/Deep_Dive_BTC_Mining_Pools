@@ -11,11 +11,16 @@ In case you are interested, here are the [slides](https://github.com/MatteoRomit
 
 #### Abstract
 
-Miners play a key role in cryptocurrencies such as Bitcoin: they invest substantial computational resources in processing transactions and minting new currency units. It is well known that an attacker controlling more than half of the network’s mining power could manipulate the state of the system at will. While the influence of large mining pools appears evenly split, the actual distribution of mining power within these pools and their economic relationships with other actors remain undisclosed. To this end, we conduct the first in-depth analysis of mining reward distribution within three of the four largest Bitcoin mining pools and examine their cross-pool economic relationships. Our results suggest that individual miners are simultaneously operating across all three pools and that in each analyzed pool a small number of actors (≤ 20) receives over 50% of all BTC payouts. While the extent of an operator’s control over the resources of a mining pool remains an open debate, our findings are in line with previous research, pointing out centralization tendencies in large mining pools and cryptocurrencies in general.
+Miners play a key role in cryptocurrencies such as Bitcoin: they invest substantial computational resources in processing transactions and minting new currency units. It is well known that an attacker controlling more than half of the network's mining power could manipulate the state of the system at will. While the influence of large mining pools appears evenly split, the actual distribution of mining power within these pools and their economic relationships with other actors remain undisclosed. To this end, we conduct the first in-depth analysis of mining reward distribution within three of the four largest Bitcoin mining pools and examine their cross-pool economic relationships. Our results suggest that individual miners are simultaneously operating across all three pools and that in each analyzed pool a small number of actors (≤ 20) receives over 50% of all BTC payouts. While the extent of an operator's control over the resources of a mining pool remains an open debate, our findings are in line with previous research, pointing out centralization tendencies in large mining pools and cryptocurrencies in general.
 
 ------------
 
 ## How to
 
 If you want to reproduce/improve/contribute to the work, here some instructions.
-...
+
+- download and extract the dataset available [here](https://zenodo.org/record/3256313#.XRInj3UzaXw) and place the `dataset` folder in the same directory of the jupyter notebooks
+
+- run `pip3 install -r requirements.txt`
+
+- run the jupyter notebooks following their order (0, 1, 2, ...)
